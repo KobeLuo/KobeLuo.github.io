@@ -1,0 +1,465 @@
+@charset "UTF-8";
+
+.landscape {
+
+	width: 100%;
+	min-width: 1000px;
+	height: 216px;
+	background:linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0)),url("../resource/landscape.jpg") no-repeat center;
+	position: relative;
+
+}
+
+
+.landscape .text {
+
+	min-width: 1223px;
+	text-align: center;
+}
+
+.landscape h2 {
+
+	color: #eee;
+	font-size: 26px;
+	position: absolute;
+
+	left: 25%;
+	top: 50%;
+
+	margin: -25px 0 0 0;
+}
+
+.landscape h3 {
+
+	color: #eee;
+	font-size: 16px;
+	position: absolute;
+
+	left: 25%;
+	top: 50%;
+
+	margin: 5px 0 0 0;
+}
+
+/*中间部分*/
+.dataArea {
+
+
+	height: 1000px;
+	text-align: center;
+	/*background-color: #efe;*/
+	clear: both;
+}
+
+.dataArea .subNav {
+
+	width:800px;
+	height: 45px;
+
+	text-align: center;
+	float: left;
+}
+
+.dataArea .list {
+
+	width: 690px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	position: relative;
+	left: 140px;
+	text-align: left;
+}
+
+.list .leftNav {
+
+	display: inline-block;
+	float: left;
+}
+
+.leftNav li {
+
+	width: 100px;
+	height: 43px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.leftNav .active {
+
+	background-color: white;
+	border-top: 2px solid #458B00;
+	position: relative;
+	left: 1px;
+}
+
+.leftNav li a {
+
+	color: #666;
+}
+
+.list li {
+
+	display: inline-block;
+}
+
+.list .rightNav {
+
+	float: right;
+	padding:0 14px 0 0;
+}
+
+.rightNav li {
+
+	width: 40px;
+	text-align: center;
+}
+
+.rightNav li a {
+
+	color: #666;
+	font-size: 14px;
+}
+
+.rightNav .active a {
+
+	background-color: #44B;
+	padding: 4px 6px;
+}
+
+/*中间主体内容区域*/
+.content {
+
+	width: 690px;
+	/*background-color: #ee9;*/
+	text-align: left;
+	position: relative;
+	left: 140px;
+}
+
+.tourItem {
+
+	width: 684px;
+	max-height:170px;
+	float: left;
+	/*background: #44B;*/
+	margin: 15px 0 0 0;
+	border: 3px solid #eee;
+	border-bottom: 0px;
+	position: relative;
+}
+
+.tourItem .type {
+
+	background: #458B00;
+	color: #EFE;
+	padding: 4px 8px;
+	text-align: center;
+	font-size: 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.tourItem .discount {
+
+	background: #F50;
+	color: #EFE;
+	padding: 4px 8px;
+	text-align: center;
+	font-size: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.content img {
+	border: 0 none;
+	width: 257px;
+	height: 170px;
+	padding: 0;
+	margin: 0;
+	background:no-repeat;
+	float: left;
+}
+
+.tourItem figcaption {
+
+	margin-left: 257px;
+	position: relative;
+}
+/*团游 标题*/
+.tourItem .title {
+
+	font-size: 18px;
+	padding: 10px 0 14px 6px;
+	color: #444;
+}
+
+.tourItem .article {
+
+	width: 280px;
+	min-width: 280px;
+	max-width: 280px;
+}
+
+.tourItem figcaption section {
+
+	font-size: 13px;
+	width: 280px;
+	min-width: 280px;
+	max-width: 280px;
+	font-weight: normal;
+	margin: 0 0 0 6px;
+	color: #999;
+}
+
+.content_h3 {
+
+	font-weight: normal;
+	font-size: 13px;
+	margin:0 0 14px 0;
+}
+
+.tourItem .mark {
+
+	background: url("../resource/icon_1.png") no-repeat left;
+	text-indent: 20px;
+	margin-bottom: 10px;
+}
+
+.tourItem .time {
+
+	background: url("../resource/icon_2.png") no-repeat left;
+	text-indent: 20px;
+	margin-bottom: 10px;
+}
+
+.tourItem footer {
+
+	background: #eee left;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	text-indent: 6px;
+	color:#777;
+	font-size: 13px;
+	position: absolute;
+	top: 148px;
+}
+
+.tourItem .end_time {
+
+	color: #458B00;
+	display: inline;
+}
+
+.tourItem .buyArea {
+
+	width: 147px;
+	height: 140px;
+	/*background: green;*/
+	position: absolute;
+	left: 280px;
+	top: 0;
+	text-align: center;
+}
+
+.tourItem .buyArea .price {
+
+	text-align: center;
+	padding: 35px 0 0 0 ;
+	/*background: #ddd;*/
+}
+
+.tourItem .originPrice {
+
+	color: #aaa;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: line-through;
+	display: inline;
+}
+
+.tourItem .salePrice {
+
+	color: #F50;
+	font-size: 16px;
+}
+
+.tourItem .buyBtn {
+
+	width: 80px;
+	background: #F50;
+	color: #EFE;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 8px 8px;
+	border-radius: 4px;
+	position: absolute;
+	top: 55px;
+	left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dataArea .aside {
+
+	width: 320px;
+	height: 100%;
+	margin: 0 20px 0 0;
+	background-position: center;
+	float: right;
+}
+
+.aside h2 {
+
+	text-align: left;
+	font-weight: normal;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin: 6px;
+	color: #666;
+	padding: 0 0 5px 0 ;
+	border-bottom: 1px dashed #ccc;
+}
+
+.aside_box {
+
+	width: 316px;
+	min-width: 316px;
+	border: 1px solid #eee;
+	margin: 10px 0 0 -40px;
+}
+
+.aside_rcmd {
+
+	text-align: left;
+}
+
+.aside_rcmd_tag {
+
+	margin: 16px 0 0 4px;
+	padding: 0;
+}
+
+.aside_rcmd_tag li {
+
+	background: #eee;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 2px 0;
+	padding: 0;
+	text-align: center;
+	/*border: 1px solid #3fe;*/
+}
+
+.aside_rcmd_tag li > a {
+
+	display: block;
+	color: #999;
+	font-size: 14px;
+}
+
+.aside_rcmd_tag a:hover {
+
+	background-color: #458B00;
+	color: white;
+}
+
+.aside_hot {
+
+	text-align: left;
+}
+
+.aside_hot .figureItem {
+
+	margin: 0 0 10px 4px;
+}
+
+.aside_hot figure {
+
+	width: 152px;
+	display: inline-block;
+	margin: 10px 0 4px 0;
+}
+
+.aside_hot figcaption {
+
+	color: #666;
+	text-align: center;
+	font-size: 14px;
+}
+
+.aside_hot img {
+
+	width: 152px;
+	height: 152px;
+	background: no-repeat center;
+}
+
+.aside_tool {
+
+	text-align: left;
+}
+
+.aside_tool_tag {
+
+	margin-left: 4px;
+}
+
+.aside_tool_tag li {
+
+	display: inline-block;
+	width: 152px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 30px;
+	margin: 0 0 4px 0 ;
+}
+
+.aside_tool_tag a {
+
+	display: block;
+	color: #999;
+}
+
+.aside_tool_tag li:nth-child(1) {
+
+	background: #eee url("../resource/icon_1.png") no-repeat 10px center;
+}
+
+.aside_tool_tag li:nth-child(2) {
+
+	background: #eee url("../resource/icon_2.png") no-repeat 10px center;
+}
+
+.aside_tool_tag li:nth-child(3) {
+
+	background: #eee url("../resource/icon_3.png") no-repeat 10px center;
+}
+
+.aside_tool_tag li:nth-child(4) {
+
+	background: #eee url("../resource/icon_4.png") no-repeat 10px center;
+}
+
+.aside_tool_tag li:nth-child(5) {
+
+	background: #eee url("../resource/icon_5.png") no-repeat 10px center;
+}
+
+

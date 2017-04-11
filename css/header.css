@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+/*头部处理*/
+#header {
+
+	width: 100%;
+	min-width: 1000px;
+	height: 70px;
+	background: #333;
+
+	/*这里设置的阴影效果在内容区域看不到,因为landscape部分是相对布局,
+	层次比header要高,所以,也需要将header设置为相对布局,并提高它的层次.
+	*/
+	box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 9999;
+}
+
+#header  nav {
+
+	width: 600px;
+	height: 70px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+
+.none {
+
+	display: none;
+}
+
+.h1 {
+
+	font-size: 25px;
+	height:70px;
+	background-image: url(../resource/logo.png);
+	text-indent:30px;
+	line-height: 70px;
+	vertical-align: middle;
+	color: #EFE;
+	float: left;
+}
+
+.nav {
+
+	float: right;
+	height: 70px;
+	line-height: 70px;
+}
+
+.nav > li {
+
+	float: left;
+	width: 80px;
+	text-align: center;
+	color: #FFF;
+
+}
+
+.nav a {
+
+	color: #EFE;
+	display: block;
+}
+
+.nav a:link {
+
+	color: #EFE;
+}
+
+/*#nav > section > ul > li >a:visited {
+
+	color: green;
+}*/
+
+.nav a:hover,
+.nav > li.active > a {
+
+	color: orange;
+	background-color: #000;
+	font-weight: bold;
+}
+
+
+a {
+
+	text-decoration: none;
+}

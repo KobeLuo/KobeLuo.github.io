@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/*url不要下划线*/
+ul {
+
+	list-style: outside none none;
+}
+
+.h1 {
+
+	font-size: 25px;
+	height:70px;
+	background-image: url(../resource/logo.png);
+	text-indent:30px;
+	line-height: 70px;
+	vertical-align: middle;
+	color: #EFE;
+	float: left;
+}
+.none {
+
+	display: none;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+#indent2px {
+
+	text-indent: 2em;
+}
+
+#introduce {
+
+	max-width: 600px;
+	margin: auto;
+  position: relative;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#landscape {
+
+	/*width: 100%;*/
+	/*min-width: 1240px;*/
+	/*height: 400px;*/
+	/*width:1000;
+  height:100%;
+	background:url("https://dn-anine.qbox.me/landscape.jpg?imageView2/2/w/2000/h/2000");
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;*/
+
+	width: 100%;
+	min-width: 1000px;
+	height: 100%;
+	background:linear-gradient(to right bottom,rgba(0,0,0,0),rgba(0,0,0,0)),url("https://dn-anine.qbox.me/landscape.jpg?imageView2/2/w/1000/h/420") no-repeat left top;
+	position: relative;
+
+}
+
+#landscape .searchbg {
+
+	width: 600px;
+	height: 60px;
+	background:#000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -30px 0 0 -300px;
+	border-radius: 35px;
+	opacity: 0.6;
+}
+
+#landscape .search {
+
+	width: 440px;
+	height: 44px;
+	background-color: rgba(0,0,0,0);
+	opacity: 1;
+	text-align: right;
+	margin-left: -270px;
+	color: #EFE;
+	outline: none;
+	font-size: 20px;
+	border: 1px solid white;
+	border-radius: 22px;
+	position: absolute;;
+	top: 50%;
+	left: 50%;
+	margin: -24px 0 0 -290px;
+}
+
+#landscape .searchBtn {
+
+	width: 120px;
+	height: 44px;
+	cursor: pointer;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -22px 0 0 170px;
+
+
+	/*background-color: red;*/
+	/*text-shadow: 5px 5px 5px #F00;*/
+	box-shadow: 1px 1px  1px silver;
+	border-radius: 22px;
+	line-height: 44px;
+	color: #EFE;
+	font-size: 20px;
+
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+#tour {
+
+	width: 100%;
+	min-width: 100%;
+	height: 1170px;
+	/*background-color: #FA6;*/
+	text-align: center;
+	/*margin: auto;*/
+}
+
+.tourSec {
+
+	margin: 20px auto;
+}
+
+.tourSec h2 {
+
+	letter-spacing: 5px;
+	font-size: 44px;
+	padding: 20px;
+	margin: 0px;
+	color: #666;
+}
+
+.tourSec p {
+
+	padding: 0;
+	margin: 0;
+	color: #555;
+}
+
+.tourItem {
+
+	display:inline-block;
+	width: 360px;
+
+	/*background-color: green;*/
+	position: relative;
+	border: 1px solid rgba(1,1,1,0.1);
+	border-radius: 4px;
+	box-shadow: 0 1px 1px #ddd;
+
+	margin: 12px 12px;
+}
+
+.tourItem img {
+
+
+	width: 352px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	vertical-align: middle;
+	margin: 4px;
+	/*border-radius: 4px;*/
+	float: left;
+}
+
+.tourItem figcaption {
+
+	padding: 0;
+	margin: 0;
+	color: #777;
+	line-height: 1.5;
+	text-align: left;
+	/*margin: 2px 4px;*/
+	margin: 0 4px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	/*background-color: magenta;*/
+}
+
+.tourItem .title {
+
+	color: #333;
+	font-weight: normal;
+}
+
+.tourItem .div {
+
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.tourItem .sat {
+
+	float: right;
+	color: #999;
+	font-style: normal;
+	margin: 6px 6px 0 0;
+	font-size: 13px;
+}
+
+.tourItem .price {
+
+	float: left;
+	color: #f60;
+	/*margin: 0 4px;*/
+	margin: 0;
+}
+
+.tourItem .price strong {
+
+	font-size: 20px;
+}
+
+.tourItem .type {
+
+	background-color: #59b200;
+	width: 90px;
+	height: 25;
+	line-height: 25px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	left: 4px;
+}
+
+
+
+
+
